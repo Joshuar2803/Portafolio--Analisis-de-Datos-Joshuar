@@ -1,23 +1,28 @@
-Resumen Ejecutivo: Análisis de Rotación de Personal (HR Analytics) Objetivo: Identificar los factores críticos de deserción laboral para optimizar las políticas de retención y fortalecer la estabilidad organizacional.
+# Análisis de Rotación de Personal (HR Analytics)
 
-Estado Actual de la Fuerza Laboral Actualmente, la organización cuenta con una tasa de rotación global del 16.12%. El análisis comparativo de la base de datos (1,233 empleados activos vs. 237 bajas) arroja las siguientes dimensiones clave:
+## 📌 Descripción del Proyecto
+Este proyecto analiza los factores que influyen en la rotación de personal (Attrition) dentro de una organización. El objetivo es identificar causas raíz —como la brecha salarial, la carga laboral y la satisfacción del empleado— para apoyar la toma de decisiones estratégicas del departamento de Talento Humano.
 
-Perfil de la Deserción: El empleado promedio que abandona la compañía tiene 34 años, una antigüedad de 5 años y un ingreso mensual de $4,787.
+## 🛠 Tecnologías Utilizadas
+* **Lenguaje:** Python, SQL.
+* **Bibliotecas:** Pandas (manipulación de datos), Seaborn/Matplotlib (visualización), Scipy (análisis estadístico).
+* **Entorno:** Google Colab.
 
-Perfil de Permanencia: Los empleados que permanecen tienen una edad promedio mayor (37-38 años), una trayectoria más larga (7 años) y una compensación significativamente superior ($6,832).
+## 📂 Contenido del Repositorio
+* `analisis_hr.ipynb`: Notebook principal con el flujo completo de limpieza, exploración, visualización y análisis de datos.
+* `queries_hr.sql`: Script con las consultas fundamentales para replicar los cálculos en un entorno de base de datos relacional.
 
-Hallazgos Estratégicos (Insights)
+## 🚀 Metodología y Análisis
+El análisis se estructuró bajo estándares de calidad profesional:
+1. **Validación de Datos:** Auditoría inicial de tipos de datos, valores nulos y distribución de la variable objetivo.
+2. **KPIs de Negocio:** Cálculo de tasa de rotación global y segmentada por departamentos.
+3. **Análisis Comparativo:** Evaluación del perfil de empleados que permanecen vs. los que abandonan la compañía utilizando `.agg()`.
+4. **Comparativa Técnica:** Justificación estratégica del uso de **Pandas** (agilidad exploratoria) frente a **SQL** (eficiencia y escalabilidad).
 
-Brecha Salarial como Factor Determinante: Se identifica una disparidad salarial crítica en todos los departamentos. En Recursos Humanos, por ejemplo, quienes se van perciben casi la mitad del salario (3,715) en comparación con quienes se quedan ($7,345). Esta brecha no solo impulsa la rotación, sino que correlaciona con un nivel de satisfacción bajo (2.46/4)
+## 📊 Hallazgos Principales (Resumen Ejecutivo)
+* Se identificó una **tasa global de rotación del 16.12%**.
+* **El factor salarial:** Existe una brecha significativa en departamentos como Recursos Humanos, donde la compensación es un predictor clave de deserción.
+* **Carga operativa:** Los empleados que abandonan la empresa registran una mayor incidencia de horas extra, sugiriendo la necesidad de un mejor balanceo de cargas.
 
-Carga de Trabajo y Horas Extra: Existe una correlación directa entre la ejecución de horas extra y la decisión de abandonar la empresa. Los empleados que se retiran exceden significativamente la carga de trabajo de quienes permanecen, señalando una oportunidad crítica en la planificación y balanceo de cargas.
-
-Vulnerabilidad del Departamento de Ventas: Con una tasa de rotación del 20.6%, el área de Ventas es la de mayor riesgo. Esto sugiere que el modelo actual de alta presión/orientación a resultados está erosionando la estabilidad del equipo.
-
-Recomendaciones y Metas Propuestas
-
-Política de Compensación: Revisar la estructura salarial para reducir las brechas detectadas, asegurando que la compensación sea competitiva respecto a la retención de talento clave.
-
-Estrategia de Satisfacción: El personal que permanece reporta una satisfacción promedio de 2.77/4. Establecer como meta institucional superar el 3.0 en este índice es fundamental para mitigar la rotación futura y consolidar un equipo más comprometido.
-
-Balance de Carga: Implementar un diagnóstico de carga operativa para reducir las horas extra excesivas, mitigando así el desgaste (burnout) prematuro del personal.
+---
+*Desarrollado como parte del plan de formación profesional en Ciencia de Datos.*
