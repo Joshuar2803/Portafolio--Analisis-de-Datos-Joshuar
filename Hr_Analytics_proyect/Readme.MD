@@ -23,6 +23,14 @@ El análisis se estructuró bajo estándares de calidad profesional:
 * Se identificó una **tasa global de rotación del 16.12%**.
 * **El factor salarial:** Existe una brecha significativa en departamentos como Recursos Humanos, donde la compensación es un predictor clave de deserción.
 * **Carga operativa:** Los empleados que abandonan la empresa registran una mayor incidencia de horas extra, sugiriendo la necesidad de un mejor balanceo de cargas.
+* **🖥️ Visualización Ejecutiva (Power BI)**
+Además del análisis estadístico, el proyecto se trasladó a un entorno de Business Intelligence para monitoreo continuo:
+
+* **Dashboard Senior:** Diseño de 2 páginas con enfoque en KPIs de alerta temprana.
+
+* **Lógica DAX:** Implementación de medidas condicionales para resaltar riesgos de rotación superiores al 20%.
+
+* **Consistencia:** Diseño de interfaz basado en una paleta de 3 colores para asegurar una lectura rápida de insights.
 
 ---
 *Desarrollado como parte del plan de formación profesional en Ciencia de Datos.*
