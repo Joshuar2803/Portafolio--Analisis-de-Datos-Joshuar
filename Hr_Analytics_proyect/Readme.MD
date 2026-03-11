@@ -32,9 +32,9 @@ Además del análisis estadístico, el proyecto se trasladó a un entorno de Bus
 
 * **Consistencia:** Diseño de interfaz basado en una paleta de 3 colores para asegurar una lectura rápida de insights.
 
-![Hr_Analytics_proyect](assets/Dashboard Image.jpeg)
+![Hr_Analytics_proyect](assets/dashboard_1.jpeg)
 
-![Hr_Analytics_proyect](assets/Dashboard Image 2.jpeg)
+![Hr_Analytics_proyect](assets/dashboard_2.jpeg)
 
 
 
