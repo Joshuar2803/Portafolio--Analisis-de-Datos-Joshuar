@@ -1,43 +1,48 @@
 # 📊 HR Analytics: Estrategia contra la Rotación de Personal
 
-> Este proyecto traduce datos de 1,470 empleados en **decisiones estratégicas**. El objetivo principal es desmitificar el *porqué* del abandono laboral, identificando perfiles de riesgo mediante un enfoque técnico integral (Python + SQL + BI).
-
----
-
-## 📌 Contexto del Negocio
-La rotación de personal (Attrition) no es solo una métrica de RRHH; es un drenaje de capital intelectual y operativo. Este análisis permite a Talento Humano pasar de un enfoque reactivo a uno **predictivo**.
+> Este proyecto traduce datos de 1,470 empleados en decisiones estratégicas. El objetivo es identificar causas raíz de la rotación (Attrition) para apoyar la toma de decisiones en Talento Humano.
 
 ---
 
 ## 🛠 Stack Tecnológico
 * **Análisis y Manipulación:** `Python` con `Pandas` y `Scipy`.
-* **Gestión de Datos:** `SQL` (SQLite) para consultas estructuradas.
-* **Business Intelligence:** `Power BI` con lógica `DAX` avanzada.
-* **Visualización:** `Matplotlib` / `Seaborn`.
+* **Gestión de Datos:** `SQL` (SQLite) y `Power BI` (DAX).
+* **Entorno:** Google Colab.
 
 ---
 
 ## 🚀 Metodología Profesional
-El flujo de trabajo siguió un ciclo de vida de datos estandarizado:
-
-1. **Auditoría de Datos:** Limpieza, validación de nulos y análisis estadístico.
-2. **Consultoría de Datos (SQL vs. Pandas):** Comparativa estratégica entre la agilidad de Pandas y la escalabilidad de SQL.
-3. **Ingeniería de Métricas:** Creación de KPIs de rotación mediante **DAX** con alertas condicionales.
-4. **Visualización Ejecutiva:** Diseño de dashboards siguiendo criterios de **UI/UX corporativo**.
+1. **Auditoría de Datos:** Limpieza y validación de nulos.
+2. **Consultoría Técnica:** Comparativa estratégica entre la agilidad de Pandas y la escalabilidad de SQL.
+3. **Ingeniería de Métricas (DAX):** Implementación de indicadores clave de rotación.
+4. **Visualización Ejecutiva:** Desarrollo de dashboard interactivo en Power BI.
 
 ---
 
-## 📊 Hallazgos Principales (Highlights)
-* **Tasa de Rotación:** 16.12% global.
-* **Alerta Crítica:** Ventas presenta un **21% de rotación**, identificándose como la zona de mayor riesgo.
-* **Perfil de Riesgo:** El empleado que abandona suele ser más joven, con menor salario y una carga de **horas extras (OverTime)** significativamente superior a los empleados estables.
-* **Satisfacción:** La insatisfacción (Nivel 1) es un predictor directo de deserción; el segmento de Nivel 1 muestra una tasa de rotación del 22.8%.
+## 🎨 Decisiones de Diseño (Dashboard)
+Se eligió un lienzo con tono gris suave, reservando el lateral izquierdo para los segmentadores (*slicers*) de departamento y horas extras. El diseño prioriza la claridad: los *insights* se presentan como títulos estratégicos para facilitar la toma de decisiones informadas.
 
 ---
 
-## 🖥️ Dashboard Ejecutivo (Power BI)
+## ⚙️ Medidas DAX Implementadas
+Para la construcción del Dashboard, se utilizaron las siguientes medidas clave:
+* **Total Empleados:** `COUNTROWS('HR_Data')`
+* **Bajas:** `CALCULATE(COUNTROWS('HR_Data'), 'HR_Data'[Attrition] = "Yes")`
+* **Tasa Rotación (%):** `DIVIDE([Bajas], [Total Empleados], 0) * 100`
+* **Salario Promedio:** `AVERAGE('HR_Data'[MonthlyIncome])`
+* **Indicador Condicional:** `IF([Tasa Rotacion] > 20, "#C0392B", "#27AE60")` (Alerta visual automática).
 
-*Dashboard diseñado bajo criterios de diseño senior (paleta de 3 colores, títulos con insights y consistencia visual).*
+---
+
+## 📊 Hallazgos Principales
+* **Tasa de Rotación Global:** 16.12%.
+* **Alerta Crítica:** Ventas presenta un 21% de rotación.
+* **Perfil de Riesgo:** Empleados más jóvenes, con salarios menores y mayor incidencia de *OverTime*.
+
+---
+
+## 🖥️ Dashboard Ejecutivo
+El archivo fuente del dashboard se encuentra disponible en este repositorio como: `Dashboard_hr.pbix`.
 
 ![Dashboard Visión General](assets/dashboard_1.jpeg)
 ![Dashboard Perfil en Riesgo](assets/dashboard_2.jpeg)
@@ -45,10 +50,10 @@ El flujo de trabajo siguió un ciclo de vida de datos estandarizado:
 ---
 
 ## 📂 Contenido del Repositorio
-* `analisis_hr.ipynb`: Notebook con el flujo completo de exploración y análisis.
-*`Dashboard_hr.ipynb`: Archivo Power BI en donde se encuentra 
+* `analisis_hr.ipynb`: Notebook de exploración.
 * `queries_hr.sql`: Script de consultas SQL.
-* `assets/`: Recursos visuales del proyecto.
+* `Dashboard_hr.pbix`: Archivo fuente de Power BI.
+* `assets/`: Recursos visuales.
 
 ---
 *Desarrollado como parte del plan de formación profesional en Ciencia de Datos.*
