@@ -4,11 +4,13 @@ Bienvenido a mi portafolio profesional. Este espacio documenta mi evolución y a
 # 🚀 Sobre mí
 Soy un apasionado de los datos en constante formación. Me especializo en la limpieza, exploración, análisis y visualización de información para la toma de decisiones empresariales. Actualmente, estoy fortaleciendo mis habilidades en el stack tecnológico de Python (Pandas, Seaborn, Scikit-learn) y SQL, Power Bi, Estadistica aplicada, Machine Learning con el fin de aportar valor tangible a cualquier organización.
 
-# 📂 Proyectos Destacados
-[Día 06]: Análisis de Rotación de Personal (HR Analytics)
-Este proyecto consiste en un análisis integral de rotación laboral, donde se evaluaron factores como salario, carga de trabajo y satisfacción de los empleados.
-
-Tecnologías: Python (Pandas, Matplotlib/Seaborn), SQL.
+## 📁 Proyectos
+| Proyecto | Herramientas | Dataset |
+|----------|-------------|---------|
+| E-Commerce Analysis | Python, Pandas | Olist Brazil |
+| HR Analytics SQL | SQL, SQLite | IBM HR |
+| HR Dashboard | Power BI, DAX | IBM HR |
+| Sales Dashboard | Power BI, DAX, Time Intelligence | Superstore |
 
 # Logros:
 
