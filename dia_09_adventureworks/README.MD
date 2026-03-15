@@ -32,6 +32,8 @@ Se optó por una interfaz de usuario orientada al **análisis profesional (Dark 
 * **Alertas:** `#E74C3C` (Rojo).
 Nota de diseño: Se sustituyó el KPI 'Total Customers' por 'YoY%' debido a que el análisis de crecimiento temporal aporta un mayor valor ejecutivo para la toma de decisiones estratégicas en este dashboard.
 
+![Dashboard](screenshot_dashboard.png)
+
 ## 💡 Hallazgos de Negocio
 Basado en la exploración de datos, se extrajeron dos insights clave para la toma de decisiones:
 
