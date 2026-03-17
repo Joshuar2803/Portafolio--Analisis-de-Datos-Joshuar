@@ -3,7 +3,7 @@
 ### 📸 Conexión a Base de Datos Cloud
 *Infraestructura escalada a la nube mediante SQLAlchemy y conexión segura a Neon.tech.*
 
-![Screenshot de la conexión exitosa a Neon](tu_enlace_de_imagen_aqui)
+![Screenshot de la conexión exitosa a Neon](screenshot_conexiónpostgresql.png)
 
 ---
 
