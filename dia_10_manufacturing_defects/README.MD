@@ -4,7 +4,7 @@ Este proyecto implementa un sistema de análisis de datos estructurado en tres n
 
 ---
 
-## 📋 Resumen Ejecutivo (Para Jefe de Planta)
+## 📋 Resumen Ejecutivo 
 
 El análisis del último lote de producción (`3,240 registros totales`) revela un desafío significativo en la estabilidad de la línea:
 
