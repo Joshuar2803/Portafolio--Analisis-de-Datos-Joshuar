@@ -11,7 +11,7 @@ Soy un apasionado de los datos en constante formación. Me especializo en la lim
 | HR Analytics SQL | SQL, SQLite | IBM HR |
 | HR Dashboard | Power BI, DAX | IBM HR |
 | Sales Dashboard | Power BI, DAX, Time Intelligence | Superstore |
-
+| Manufacturing defects | PostgreSQL, SQL, Python, Pandas | Predecting Manufacturing Defects|
 # Logros:
 
 Identificación de brechas salariales críticas y su relación directa con la rotación.
