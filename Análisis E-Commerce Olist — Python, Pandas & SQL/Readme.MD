@@ -99,6 +99,6 @@ Este proyecto demuestra la **equivalencia mental entre Pandas y SQL**, aplicada 
 
 ## 👤 Autor
 
-**Joshua**
+**Joshuar Rodriguez**
 Analista de Datos en formación | Enfoque en E-Commerce, Logística y Finanzas
-[LinkedIn](www.linkedin.com/in/joshuar-rodriguez-141981344) · [GitHub](https://github.com/Joshuar2803)
+LinkedIn |(www.linkedin.com/in/joshuar-rodriguez-141981344) · GitHub | (https://github.com/Joshuar2803)
