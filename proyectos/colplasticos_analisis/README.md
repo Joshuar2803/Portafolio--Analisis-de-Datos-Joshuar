@@ -17,7 +17,7 @@ Para garantizar la integridad del modelo en Power BI, se aplicaron dos procesos 
 
 El dashboard implementado permite una navegación desde la métrica macro hasta el detalle financiero por turno.
 
-[Dashboard del análisis] (Screenshot_dasboard.png)
+![Dashboard del análisis](Screenshot_dashboard.png)
 ### Hallazgos Clave:
 
 1. **OEE y Calidad:** El **80,13%** de OEE promedio es aceptable, pero el dato alarmante es que el **84,04%** de los turnos operan fuera de especificación.
@@ -64,6 +64,8 @@ Se aplicó una paleta de colores basada en **estándares de seguridad industrial
 |**Acento Positivo**|`#27AE60`|Verde (Dentro de Especificación)|
 |**Acento Negativo**|`#E74C3C`|Rojo (Fuera de Especificación)|
 |**Texto Principal**|`#F0F4FF`|Blanco azulado (Lectura descansada)|
+
+![Fondo del lienzo](Fondo_Colplasticos.png)
 
 ## 🚀 Hallazgos Accionables para la Dirección
 
