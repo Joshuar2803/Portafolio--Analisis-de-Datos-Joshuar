@@ -17,8 +17,7 @@ Para garantizar la integridad del modelo en Power BI, se aplicaron dos procesos 
 
 El dashboard implementado permite una navegación desde la métrica macro hasta el detalle financiero por turno.
 
-_(Sube tu captura a GitHub y reemplaza este link)_
-
+[Dashboard del análisis] (Screenshot_dasboard.png)
 ### Hallazgos Clave:
 
 1. **OEE y Calidad:** El **80,13%** de OEE promedio es aceptable, pero el dato alarmante es que el **84,04%** de los turnos operan fuera de especificación.
